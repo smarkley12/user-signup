@@ -49,6 +49,8 @@ def validate_info():
 
     if len(email) > 20 or len(email) < 3:
         email_error = "That's not a valid email."
+    if email == '':
+        email_error = ''
     
     
     
